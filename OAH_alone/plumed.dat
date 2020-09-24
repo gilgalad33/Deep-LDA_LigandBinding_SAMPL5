@@ -44,9 +44,9 @@ OPES_WT ...
    PACE=500000
    BARRIER=50
    RESTART=YES
-   PROB_RFILE=compressed_Kernels.data  
-   PROB_WFILE=compressed_Kernels.data
-   PROB_WSTRIDE=50000 
+   STATE_RFILE=compressed_Kernels.data  
+   STATE_WFILE=compressed_Kernels.data
+   STATE_WSTRIDE=50000 
    #WALKERS_MPI
 ... OPES_WT 
 

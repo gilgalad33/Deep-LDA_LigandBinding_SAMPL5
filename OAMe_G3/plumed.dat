@@ -76,9 +76,9 @@ OPES_WT ...
    ARG=cyl.z,sw
    FILE=../Kernels.data
    RESTART=NO
-   PROB_RFILE=../compressed_Kernels.data
-   PROB_WFILE=../compressed_Kernels.data
-   PROB_WSTRIDE=50000
+   STATE_RFILE=../compressed_Kernels.data
+   STATE_WFILE=../compressed_Kernels.data
+   STATE_WSTRIDE=50000
    PACE=500
    BARRIER=60
    WALKERS_MPI
